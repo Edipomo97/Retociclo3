@@ -1,0 +1,54 @@
+*{
+    margin: auto;
+}
+
+#FieldsetForm{
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    border-color:tomato ;
+    border-radius: 20px;
+    border-width: 3px;
+    border-style: double;
+    color: darkblue;
+    font-family: sans-serif;
+    
+    
+}
+
+#inputFieldset{
+    padding: 10px;
+    margin: auto;
+    margin-block: 20px;
+    width: min-content;
+    border-radius: 20px;
+    border-style: dotted;
+    align-content: center;
+    
+}
+
+
+
+#LogInBtn{
+    margin: 10px 0px 10px 0px;
+    
+}
+
+input{
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: hidden;
+    margin: auto;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
