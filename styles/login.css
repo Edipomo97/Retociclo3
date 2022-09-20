@@ -43,7 +43,7 @@ input{
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-    background-color: #04AA6D;
+    background-color: #0097a7;
     border: none;
     border-radius: 20px;
     color: white;
