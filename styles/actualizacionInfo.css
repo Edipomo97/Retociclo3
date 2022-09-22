@@ -1,0 +1,81 @@
+*{
+    margin: auto;
+
+}
+#Actualizar{ 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #1417b9; 
+    width: 300px;
+    
+}
+#FieldsetForm{
+    border-color:rgb(230, 22, 91) ;
+    color: black;
+    font-weight: bold; 
+    position:relative;
+    width: 530px;
+    height: 180px;
+    padding: 30px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    justify-content: center;
+    
+
+
+    
+    
+}
+input{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    border-width: 1px;
+    background-color: #e8e9e8;
+    border-color: rgb(226, 224, 224);
+    border-radius: 20px;
+    margin: auto;
+}
+
+#Identidad{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    color: dimgray; 
+    border-width: 1px;
+    background-color: #e8e9e8;
+    border-color: rgb(226, 224, 224);
+    border-radius: 20px;
+    margin: auto;
+}
+.vista{
+    display: flex;
+    justify-content: center;
+}
+#Boton1{
+    margin: 10px 0px 10px 0px;
+    background-color: #1b57c7;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-right: 30px;
+    justify-content: center;
+
+    
+}
+#Boton2{
+    margin: 10px 0px 10px 0px;
+    background-color: #e20a52;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-right: 30px;
+    justify-content: center;
+
+    
+}
