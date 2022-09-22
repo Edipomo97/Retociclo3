@@ -15,34 +15,38 @@
     
 </head>
 
-
 <body>
+
     <header class="cont-header">
         <h1 class="titulo1">Plataforma de vuelos MisionTic 2.0</h1>
     </header>
 
     <div class="nav-bgn">
         <nav class="navegacion-ppal contenedor">
-            <a href="#">Inicio</a>
+            <a href="../Model/home.html">Inicio</a>
                         
-            <a class="icoletra" href="login.html">
+            <a  href="login.html">
+
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="32" height="32" viewBox="0 0 24 24" stroke-width="2" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <circle cx="12" cy="7" r="4" />
                     <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
                 </svg>
-                Login</a>
-            <a href="#">Buscar Vuelo
-                <input type="search" name="" id="">
+                Login
             </a>
-            <a class="icoletra" href="#" >
+
+            <a class="btn-buscar" href="#"> 
+                <p> Vuelo </p>  
+                <input type="search" name="" id="buscar" placeholder="Buscar Vuelo">
+            </a>
+            <a  href="#" >
+                Menú
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="36" height="36" viewBox="0 0 24 24" stroke-width="2" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <line x1="4" y1="6" x2="20" y2="6" />
                     <line x1="4" y1="12" x2="20" y2="12" />
                     <line x1="4" y1="18" x2="20" y2="18" />
-                  </svg>
-                Menú
+                </svg>
             </a>
         </nav>
     </div>
@@ -60,7 +64,7 @@
                 Cartagena de Indias D.T. y H.
             </p>
             
-            <a class="boton" href="#">Contactar</a>
+            <a class="boton" href="styled-table">Contactar</a>
         </div>
         
 
@@ -73,22 +77,23 @@
             <div class="navegacion-ppal2">
                 
                 <a class="boton btn-vuelos" href="#">
-                    <i>
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="60" height="60" viewBox="0 0 24 24" stroke-width="2" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                            <path d="M15 12h5a2 2 0 0 1 0 4h-15l-3 -6h3l2 2h3l-2 -7h3z" transform="rotate(15 12 12) translate(0 -1)" />
-                            <line x1="3" y1="21" x2="21" y2="21" />
-                        </svg>
-                    </i>
+                    
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-arrival" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M15 12h5a2 2 0 0 1 0 4h-15l-3 -6h3l2 2h3l-2 -7h3z" transform="rotate(15 12 12) translate(0 -1)" />
+                        <line x1="3" y1="21" x2="21" y2="21" />
+                    </svg>
+                    
                     Llegadas
                 </a>
 
                 <a class="boton btn-vuelos" href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-departure" width="60" height="60" viewBox="0 0 24 24" stroke-width="2" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-plane-departure" width="40" height="40" viewBox="0 0 24 24" stroke-width="2" stroke="#ffbf00" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <path d="M15 12h5a2 2 0 0 1 0 4h-15l-3 -6h3l2 2h3l-2 -7h3z" transform="rotate(-15 12 12) translate(0 -1)" />
                         <line x1="3" y1="21" x2="21" y2="21" />
                     </svg>
+
                     Salidas
                 </a>
             </div>
@@ -188,50 +193,58 @@
 
         </article>
         
+        <section>
+            <h2>Contacto</h2> 
+
+            <form action="" class="formulario">
+                <fieldset>
+                    <legend>Contactanos llenando el siguiente formulario</legend>
+                    
+                    <div class="cont-campos"> 
+                        <div class="campo">
+                            <label for="">Nombre</label>
+                            <input class="input-txt" type="text" placeholder="Tu Nombre">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Teléfono</label>
+                            <input class="input-txt" type="tel" placeholder="Tu número telefónico">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Correo</label>
+                            <input class="input-txt" type="email" placeholder="Tu e-mail">
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Mensaje</label>
+                            <textarea class="input-txt" placeholder="Escribe aquí tu mensaje"></textarea>
+                        </div>
+                        
+                        <div class="alineado-derecha flex">
+                            <input class="boton w-100" type="submit" value="Enviar">
+                        </div>
+                    </div> 
+                    
+                </fieldset>
+            </form> 
+
+        
+        </section>
+
     </main>
-
-    <section>
-        <!-- <h2>Contacto</h2> -->
-        <!-- <form action="">
-            <fieldset>
-                <legend>Contactame llenando el siguiente formulario</legend>
-                <div>
-                    <label for="">Nombre</label>
-                    <input type="text" placeholder="Tu Nombre">
-                </div>
-                
-                <div>
-                    <label for="">Teléfono</label>
-                    <input type="tel" placeholder="Tu número telefónico">
-                </div>
-                
-                <div>
-                    <label for="">Correo</label>
-                    <input type="email" placeholder="Tu e-mail">
-                </div>
-                
-                <div>
-                    <label for="">Mensaje</label>
-                    <textarea placeholder="Escribe aquí tu mensaje"></textarea>
-                </div>
-                
-                <div>
-                    <input type="submit" value="Enviar">
-                </div>
-                
-
-            </fieldset>
-        </form> -->
-        <p>Vivamus sed faucibus nulla. Praesent vehicula tortor dictum purus venenatis, eu placerat lorem feugiat.
-        Ut facilisis, orci in pellentesque vehicula, est est aliquam sapien, quis suscipit turpis neque quis massa. </p>
-    </section>
 
     <aside>
 
     </aside>
 
-    <footer class="contenedor">
-        <p >Todos los derechos reservados - Marlon Guerrero</p>
+    <footer class="footer">
+        <p >Todos los derechos reservados Grupo14 NRC2100 - 
+            <a target="_blank" href="./Politica de Privacidad y Tratamiento de Datos Personales - GRUPO-14 CICLO-3.pdf"  >
+                Politica de Privacidad y Tratamiento de Datos
+            </a>
+        </p>
+        
     </footer>
     
 </body>
