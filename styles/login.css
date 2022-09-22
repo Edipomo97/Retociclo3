@@ -2,7 +2,11 @@
     margin: auto;
 }
 
+body{
+    background-color: white;
+}
 #FieldsetForm{
+    
     margin-top: 30px;
     text-align: center;
     padding: 20px;
@@ -51,4 +55,10 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+  }
+
+  a{
+    margin-top: 10px;
+    color: tomato;
+
   }
